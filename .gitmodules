@@ -1,0 +1,3 @@
+[submodule "sample/niko-app"]
+	path = sample/niko-app
+	url = https://github.com/nikogoli/niko-app
