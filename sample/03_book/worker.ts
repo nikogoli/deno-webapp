@@ -1,5 +1,5 @@
 import { setHTML, serve, timeKeeper } from 'niko-app/by-esbuild/mod.ts'
-import { contentType } from "https://deno.land/std@0.177.0/media_types/mod.ts"
+import { contentType } from "@std/media-types"
 
 import { PageProps, TextInfo } from "./types.ts"
 import { VIEW_CONFIG, IMPORT_MAP_PATH, DENO_JSON_PATH } from "./settings.ts"

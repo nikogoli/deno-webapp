@@ -1,6 +1,6 @@
 import { Webview, SizeHint } from "niko-app/mod_webview.ts"
 import { setHTML, timeKeeper } from 'niko-app/by-esbuild/mod.ts'
-import { join, dirname } from "https://deno.land/std@0.171.0/path/mod.ts"
+import { join, dirname } from "@std/path"
 
 import { VIEW_CONFIG, IMPORT_MAP_PATH, DENO_JSON_PATH } from "./settings.ts"
 

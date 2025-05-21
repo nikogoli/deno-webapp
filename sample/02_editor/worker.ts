@@ -1,7 +1,7 @@
 import { serve, timeKeeper } from 'niko-app/by-esbuild/mod.ts'
 import { contentType } from "https://deno.land/std@0.177.0/media_types/mod.ts"
-import { walk } from "https://deno.land/std@0.155.0/fs/mod.ts"
-import { dirname } from "https://deno.land/std@0.171.0/node/path.ts"
+import { walk } from "jsr:@std/fs@1.0.17"
+import { dirname } from "@std/path"
 
 import { ReturndHierarchy } from "./types.ts"
 import { VIEW_CONFIG } from "./settings.ts"
